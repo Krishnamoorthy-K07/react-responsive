@@ -1,0 +1,21 @@
+.search-btn {
+    padding: 18px;
+    border: solid 1px green;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input {
+    padding: 20px;
+    border: solid 1px green;
+    border-radius: 10px;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+}
