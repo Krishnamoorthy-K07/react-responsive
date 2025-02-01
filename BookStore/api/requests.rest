@@ -1,0 +1,38 @@
+ GET http://localhost:3001/books
+
+###
+
+POST http://localhost:3001/addbook
+Content-Type: application/json
+
+{
+    "name" : "RichDad_PoorDad Copy 2",
+    "author":"no-one",
+    "description" : "Good One",
+    "price": 15,
+    "available" : true,
+    "image":"https://www.meripustak.com/MeripustakStatic/FullImage/Peace-Love-And-You-A-Spiritual-Inspirational-Self-Help-Book-About-Self-Love-Spirituality-Self-Esteem-And-Meditation-2017-Edition_348157.jpg"
+}
+
+### 
+
+DELETE http://localhost:3001/deletebook/642e565d0ae8c4c940830674
+
+###
+
+GET http://localhost:3001/book/642c262d900271595eedbec4
+
+
+###
+
+
+PUT  http://localhost:3001/updatebook/642c263f900271595eedbec6
+Content-Type: application/json
+
+{
+    "name" : "RichDad-PoorDad",
+    "author":"no-one",
+    "description" : "Good One",
+    "price": 15,
+    "available" : true
+}

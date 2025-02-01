@@ -1,0 +1,13 @@
+img {
+    height: 100;
+    width: 250px;
+}
+
+.card {
+    margin: auto;
+    padding: 1rem;
+    width: 250px;
+    height: 100;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+}
